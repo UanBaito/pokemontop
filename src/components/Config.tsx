@@ -1,4 +1,4 @@
-import { ChangeEventHandler, SetStateAction } from "react";
+import { ChangeEventHandler } from "react";
 
 
 export default function Config({ genState , handleSelectGen, typeState, handleSelectType}: {genState: string; handleSelectGen: ChangeEventHandler; typeState: string; handleSelectType: ChangeEventHandler}) {
