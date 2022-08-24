@@ -1,8 +1,8 @@
-import React, { useCallback, useEffect, createRef, Fragment, PureComponent, CSSProperties, ComponentType, ReactPropTypes, useRef, memo, FunctionComponent, SyntheticEvent, MouseEventHandler } from "react";
+import  {MouseEvent, SyntheticEvent } from "react";
 import data from "./data.json"
-import { FixedSizeList as FixedSizeList, ListChildComponentProps, areEqual } from 'react-window';
+import { FixedSizeList } from 'react-window';
 import InfiniteLoader from "react-window-infinite-loader";
-import { Pokimon } from "../interface";
+
 
 let itemStatusMap: any = {};
 let itemCount: number
@@ -63,7 +63,7 @@ export default function Searchbar({handleAdd, searchBarValue, typeState, genStat
   let mappedpokedex = filteredPokedex.map((value) => { 
 
     return (
-      <div key={value.id} className="searchbar-pokemonItem" onClick={(event: React.MouseEvent) => {handleAdd(event, value)}}>
+      <div key={value.id} className="searchbar-pokemonItem" onClick={(event: MouseEvent) => {handleAdd(event, value)}}>
         <img className="pokemonItem-img" src={value.sprites}/>
         <span className="pokemonItem-name">{value.name}</span>
       </div>)

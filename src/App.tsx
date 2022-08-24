@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import './App.css'
 import Searchbar from "./components/Searchbar"
 import React from 'react'
@@ -9,7 +9,7 @@ import Config from './components/Config'
 import { ThemeProvider } from '@mui/material'
 import theme from './components/Theme'
 import ToplistButtons from './components/ToplistButtons'
-import { handleBreakpoints } from '@material-ui/system'
+import "../src/assets/pokeball2.svg"
 
 
 function App() { 
