@@ -13,7 +13,7 @@ export default function Navbar() {
             </div>
             <ul className="social">
                 <li>
-                    <a href="https://github.com/UanBaito?tab=repositories" target={"blank"}><FontAwesomeIcon icon={faSquareGithub} /></a>
+                    <a href="https://github.com/UanBaito/pokemontop" target={"blank"}><FontAwesomeIcon icon={faSquareGithub} /></a>
                 </li>
             </ul>
         </nav>
