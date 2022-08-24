@@ -9,7 +9,7 @@ import Config from './components/Config'
 import { ThemeProvider } from '@mui/material'
 import theme from './components/Theme'
 import ToplistButtons from './components/ToplistButtons'
-import "../src/assets/pokeball2.svg"
+
 
 
 function App() { 
