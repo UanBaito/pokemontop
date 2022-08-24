@@ -61,7 +61,6 @@ function App() {
           newArray.push(value)
         }
       })
-      console.log(newArray)
       return newArray
     })
   }
